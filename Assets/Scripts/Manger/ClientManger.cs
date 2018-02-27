@@ -8,7 +8,7 @@ using UnityEngine;
 /// </summary>
 public class ClientManger:BaseManger
 {
-    private const string Ip = "39.104.75.222";
+    private const string Ip = "127.0.0.1";
     private const int Port = 6688;
 
     private Socket clientSocket;
